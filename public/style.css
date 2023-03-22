@@ -1,0 +1,48 @@
+body {
+  background-image: url("badbankbackground.jpg");
+  background-size: cover;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+/* .navbar-light .navbar-nav .nav-link:hover {
+    color: #28a745!important;
+} */
+
+/* .navbar-light .navbar-nav .nav-link:hover: */
+.navbar-light .navbar-nav .nav-link:focus {
+  color: black !important;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black !important;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.navbar-light {
+  background-color: white !important;
+}
+.navbar-brand {
+  color: #000000 !important;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+div.container.jumbotron {
+  background-color: white !important;
+  color: #000000 !important;
+  font-weight: bold;
+  font-size: 1.5em;
+  max-width: 35%;
+}
+
+#root > div > div > div.card-body.text-dark > h5 {
+  text-align: center;
+}
+
+#root > div > div > div.card-body.text-dark > p {
+  text-align: center;
+}
